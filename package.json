@@ -1,0 +1,19 @@
+{
+  "name": "resume-webpage-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "node scripts/tailwind-run.js --minify",
+    "dev:css": "node scripts/tailwind-run.js --watch",
+    "dev": "node scripts/tailwind-run.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^4.1.14"
+  }
+}
